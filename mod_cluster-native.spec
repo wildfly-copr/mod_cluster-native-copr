@@ -3,8 +3,8 @@
 
 Name:           mod_cluster-native
 Summary:        JBoss mod_cluster for Apache httpd
-Version:        1.3.14
-Release:        2%{reltag}%{?dist}
+Version:        1.3.16
+Release:        1%{reltag}%{?dist}
 Epoch:          0
 License:        LGPLv3
 Group:          Applications/System
@@ -108,6 +108,9 @@ fi
 %{_datadir}/selinux/packages/%{name}/mod_cluster.pp
 
 %changelog
+* Tue Mar 22 2022 Ricardo Arguello <ricardo.arguello@gmail.com> - 1.3.16-1.Final
+- Upgrade to mod_cluster 1.3.16
+
 * Tue Oct 6 2020 Ricardo Arguello <ricardo.arguello@gmail.com> - 1.3.14-2.Final
 - Rebuild for EL8
 
